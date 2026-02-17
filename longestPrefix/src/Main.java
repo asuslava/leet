@@ -47,28 +47,20 @@ public class Main {
         for (int i = 0; i < strs[0].length(); i++) {
             char letter = strs[0].charAt(i);
             boolean isValid = true;
+            int j = 1;
 
-            while (isValid) {
+            while (isValid && j < strs.length) {
 
-                for (int j = 1; j < strs.length; j++) {
-
-                    if (i >= strs[j].length()) {
-                        isValid = false;
-                        break;
-                    }
-
-                    char currentLetter = strs[j].charAt(i);
-
-                    if (letter != currentLetter) {
-                        isValid = false;
-                        return prefix.toString();
-                    }
-                }
-                if (isValid){
-                    prefix.append(letter);
+                if (i >= strs[j].length() || letter != strs[j].charAt(i)) {
+                    isValid = false;
                 } else {
-                    break;
+                    j++;
                 }
+            }
+
+            if (isValid){
+                prefix.append(letter);
+            } else {
                 break;
             }
         }
