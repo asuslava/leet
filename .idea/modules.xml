@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/findTheIndex/findTheIndex.iml" filepath="$PROJECT_DIR$/findTheIndex/findTheIndex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intToRoman/intToRoman.iml" filepath="$PROJECT_DIR$/intToRoman/intToRoman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leet.iml" filepath="$PROJECT_DIR$/leet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lengthOfLastWord/lengthOfLastWord.iml" filepath="$PROJECT_DIR$/lengthOfLastWord/lengthOfLastWord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/longestPrefix/longestPrefix.iml" filepath="$PROJECT_DIR$/longestPrefix/longestPrefix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plusOne/plusOne.iml" filepath="$PROJECT_DIR$/plusOne/plusOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/removeDublicates/removeDublicates.iml" filepath="$PROJECT_DIR$/removeDublicates/removeDublicates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tomanToInt/tomanToInt.iml" filepath="$PROJECT_DIR$/tomanToInt/tomanToInt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twoSum/twoSum.iml" filepath="$PROJECT_DIR$/twoSum/twoSum.iml" />
+    </modules>
+  </component>
+</project>
