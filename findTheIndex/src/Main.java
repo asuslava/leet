@@ -1,8 +1,8 @@
 public class Main {
     static void main (String[] args) {
 
-        String haystack = "a";
-        String needle = "a";
+        String haystack = "hello";
+        String needle = "ll";
         int position = -1;
 
 
@@ -14,7 +14,7 @@ public class Main {
 
                 boolean isValid = true;
 
-                for (int j = 0; j <= needle.length()-1; j++) {
+                for (int j = 0; j < needle.length(); j++) {
                     char letterHaystack = haystack.charAt(i + j);
                     char letterNeedle = needle.charAt(j);
 
