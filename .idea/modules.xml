@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/removeDublicates/removeDublicates.iml" filepath="$PROJECT_DIR$/removeDublicates/removeDublicates.iml" />
       <module fileurl="file://$PROJECT_DIR$/romanToInt/romanToInt.iml" filepath="$PROJECT_DIR$/romanToInt/romanToInt.iml" />
       <module fileurl="file://$PROJECT_DIR$/twoSum/twoSum.iml" filepath="$PROJECT_DIR$/twoSum/twoSum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/validParentheses/validParentheses.iml" filepath="$PROJECT_DIR$/validParentheses/validParentheses.iml" />
     </modules>
   </component>
 </project>
