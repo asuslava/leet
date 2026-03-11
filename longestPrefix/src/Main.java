@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        
+
         String[] strs = {"flower", "floght", "fl"};
 
         String resultOne = findPrefixOne(strs);

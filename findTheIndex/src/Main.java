@@ -6,28 +6,28 @@ public class Main {
         int position = -1;
 
 
-            for (int i = 0; i <= haystack.length()-needle.length(); i++) {
+        for (int i = 0; i <= haystack.length()-needle.length(); i++) {
 
-                if (needle.length() > haystack.length()) {
-                    break;
-                }
+            if (needle.length() > haystack.length()) {
+                break;
+            }
 
-                boolean isValid = true;
+            boolean isValid = true;
 
-                for (int j = 0; j <= needle.length()-1; j++) {
-                    char letterHaystack = haystack.charAt(i + j);
-                    char letterNeedle = needle.charAt(j);
+            for (int j = 0; j <= needle.length()-1; j++) {
+                char letterHaystack = haystack.charAt(i + j);
+                char letterNeedle = needle.charAt(j);
 
-                    if (letterHaystack != letterNeedle) {
-                        isValid = false;
-                        break;
-                    }
-                }
-                if (isValid) {
-                    position = i;
+                if (letterHaystack != letterNeedle) {
+                    isValid = false;
                     break;
                 }
             }
+            if (isValid) {
+                position = i;
+                break;
+            }
+        }
         System.out.println(position);
     }
 }
