@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/climbingStairs/climbingStairs.iml" filepath="$PROJECT_DIR$/climbingStairs/climbingStairs.iml" />
       <module fileurl="file://$PROJECT_DIR$/findTheIndex/findTheIndex.iml" filepath="$PROJECT_DIR$/findTheIndex/findTheIndex.iml" />
       <module fileurl="file://$PROJECT_DIR$/isSubsequence/isSubsequence.iml" filepath="$PROJECT_DIR$/isSubsequence/isSubsequence.iml" />
       <module fileurl="file://$PROJECT_DIR$/leet.iml" filepath="$PROJECT_DIR$/leet.iml" />
