@@ -12,6 +12,5 @@ public class Main {
             step = previousCombination;
         }
         System.out.println(combination);
-
     }
 }
